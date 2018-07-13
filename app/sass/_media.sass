@@ -29,3 +29,32 @@
 
 // ≤1200px
 +media-breakpoint-up(xl)
+
+@media only screen and (max-width: 1200px)
+  .number_star
+    right: 30%
+  .search input
+    width: 231px
+  .search button
+    width: 70px
+    font-size: 14px
+@media only screen and (max-width: 992px)
+  .cart_header .cart span
+    font-size: 18px
+  .cart_header
+    border: none
+
+@media only screen and (max-width: 768px)
+  .main_mnu
+    margin-top: 10px
+  .logo
+    margin-top: 15px
+  .cart_header
+    display: flex
+    justify-content: flex-end
+    flex-direction: row
+  .cart_header .checkout .price
+    font-size: 15px
+  .cart_header .checkout .checkout_button button
+    padding: 0 4px
+    font-size: 13px

@@ -38,6 +38,8 @@ body
 b, strong
 	font-weight: bold
 
+.header
+	font-family: 'segoe-light'
 
 .top_mnu
 	width: 100%
@@ -49,9 +51,93 @@ b, strong
 		margin-left: 25px
 		a
 			color: #ffffff
-			font-family: 'segoe-light'
 
 .main_mnu
 	background-color: #fcfcfc
+	width: 100%
+	height: 108px
+	border-bottom: 1px solid #ececec
+	display: flex
+	flex-direction: column
+	justify-content: center
+.search
+	display: flex
+	margin-top: 1.325em
+	button
+		color: #ffffff
+		background-color: #79b260
+		border: none
+		height: 100%
+		width: 120px
+		font-size: 23px
+		cursor: pointer
 
+	input
+		display: inline-block
+		width: 326px
+		border: 4px solid #79b260
+		height: 100%
+
+.cart_header
+	border-right: 1px solid #c6c6c6
+	.cart
+		font-size: 13px
+		i
+			font-size: 23px
+			color: #79b260
+		span
+			color: #6d6d6d
+			font-size: 23px
+	.checkout
+		display: flex
+		.price
+			margin-right: 14px
+			font-size: 27px
+			color: #6d6d6d
+			font-family: "segoe-light"
+			font-weight: bold
+		.checkout_button
+			button
+				background-color: #373737
+				padding: 5px
+				color: #f8f9fa
+				border: none
+				-webkit-border-radius: 4px
+				-moz-border-radius: 4px
+				border-radius: 4px
+				cursor: pointer
+.star
+	i
+		background-color: #424242
+		border-radius: 10em
+		color: #f8f9fa
+		padding: 5px
+.list_number
+	background-color: #79b260
+	border-radius: 5em
+	width: 28px
+	height: 16px
+	text-align: center
+	display: flex
+	flex-direction: column
+	padding: 3px
+.star_text
+	display: block
+	font-size: 27px
+	color: #6d6d6d
+	display: block
+	code
+		font-size: 14px
+.number_star
+	position: absolute
+	background-color: #79b260
+	color: #ffffff
+	-webkit-border-radius: 5em
+	-moz-border-radius: 5em
+	border-radius: 5em
+	width: 28px
+	height: 20px
+	text-align: center
+	top: 20px
+	right: 40%
 @import "media" // Always at the end
